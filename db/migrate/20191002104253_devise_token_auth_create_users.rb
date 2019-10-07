@@ -17,6 +17,9 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[6.0]
       ## Rememberable
       t.datetime :remember_created_at
 
+      ## Tokens
+      t.text :tokens
+
       ## Confirmable
       t.string   :confirmation_token
       t.datetime :confirmed_at
@@ -33,9 +36,6 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[6.0]
       t.string :nickname
       t.string :image
       t.string :email
-
-      ## Tokens
-      t.json :tokens
 
       t.timestamps
     end

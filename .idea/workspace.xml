@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aff6d87-6c90-4db2-a6f6-c46add8d9832" name="Default Changelist" comment="" />
+    <list default="true" id="8aff6d87-6c90-4db2-a6f6-c46add8d9832" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DeviseTokenAuthGem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeviseTokenAuthGem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/devise_token_auth/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/devise_token_auth/registrations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191002104253_devise_token_auth_create_users.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191002104253_devise_token_auth_create_users.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +35,7 @@
   <component name="ProjectId" id="1Re46yDlfN2oDXn2Sd0f1wL5QQa" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ubwab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -148,6 +163,13 @@
       <option name="presentableId" value="Default" />
       <updated>1570014056681</updated>
       <workItem from="1570014062517" duration="2024000" />
+      <workItem from="1570108535734" duration="388000" />
+      <workItem from="1570108949879" duration="2881000" />
+      <workItem from="1570164770612" duration="10604000" />
+      <workItem from="1570182064217" duration="7504000" />
+      <workItem from="1570424065000" duration="9320000" />
+      <workItem from="1570440580602" duration="776000" />
+      <workItem from="1570441380475" duration="8047000" />
     </task>
     <servers />
   </component>
@@ -159,7 +181,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -168,11 +192,13 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="RailsRunConfigurationType">
-        <watch expression="@resource.present?" language="ruby" />
+        <watch expression="@resource.avatar.url" language="ruby" />
+        <watch expression="avatar!" language="ruby" />
+        <watch expression="@resource.avatar!" language="ruby" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570015939382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
+    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570451240313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
   </component>
 </project>
