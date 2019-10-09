@@ -1,4 +1,4 @@
-class ProfileController < ApplicationController
+class Api::V1::ProfileController < ApplicationController
 
   before_action :authenticate_user!
 
@@ -21,7 +21,7 @@ class ProfileController < ApplicationController
   end
 
   def show
-    render json: @profile = Profile.find(params[:id])
+    @profile = Profile.find(params[:id])
   end
 
   def profile_params

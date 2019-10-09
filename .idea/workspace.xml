@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aff6d87-6c90-4db2-a6f6-c46add8d9832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/profile/create.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/profile/show.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/devise_token_auth/sessions/sign_in.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/devise_token_auth/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/devise_token_auth/sessions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/profile_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/profile_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise_token_auth/registrations/sign_up.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise_token_auth/registrations/sign_up.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profile/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +33,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ubwab" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/devise_token_auth/sessions" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/devise_token_auth/sessions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/api/v1" />
+      <recent name="$PROJECT_DIR$/app/controllers/api/v1" />
       <recent name="$PROJECT_DIR$/app/views/devise_token_auth/registrations" />
     </key>
   </component>
@@ -171,7 +182,8 @@
       <workItem from="1570508972894" duration="717000" />
       <workItem from="1570517682448" duration="3229000" />
       <workItem from="1570528206907" duration="14313000" />
-      <workItem from="1570597132224" duration="7678000" />
+      <workItem from="1570597132224" duration="9484000" />
+      <workItem from="1570614563665" duration="6058000" />
     </task>
     <servers />
   </component>
@@ -191,7 +203,22 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="RailsRunConfigurationType">
+        <watch expression="Profile.uid" language="ruby" />
+        <watch expression="@Profile!" language="ruby" />
+        <watch expression="@profile.inspect" language="ruby" />
+        <watch expression="@profile.user_id" language="ruby" />
+        <watch expression="@profile.user_id" language="ruby" />
+        <watch expression="@profile.name" language="ruby" />
+        <watch expression="@profile.phno" language="ruby" />
+        <watch expression="@resource.token_validation_response" language="ruby" />
+        <watch expression="resource_data" language="ruby" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570606662648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
+    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570620247213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
   </component>
 </project>
