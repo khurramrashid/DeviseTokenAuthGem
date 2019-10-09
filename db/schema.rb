@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_10_09_051130) do
   create_table "profiles", force: :cascade do |t|
     t.string "name"
     t.integer "phno"
-    t.string "homeaddress"
+    t.string "home_address"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "user_id"
@@ -28,10 +28,10 @@ ActiveRecord::Schema.define(version: 2019_10_09_051130) do
     t.string "image_content_type"
     t.bigint "image_file_size"
     t.datetime "image_updated_at"
-    t.integer "imagecount"
+    t.integer "image_count"
     t.integer "reservation"
     t.integer "reviews"
-    t.integer "pointsearned"
+    t.integer "points_earned"
     t.index ["user_id"], name: "index_profiles_on_user_id"
   end
 
@@ -59,8 +59,8 @@ ActiveRecord::Schema.define(version: 2019_10_09_051130) do
     t.string "avatar_content_type"
     t.bigint "avatar_file_size"
     t.datetime "avatar_updated_at"
-    t.string "firstname"
-    t.string "lastname"
+    t.string "first_name"
+    t.string "last_name"
     t.integer "phno"
     t.boolean "alert"
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true

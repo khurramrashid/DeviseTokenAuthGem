@@ -19,7 +19,7 @@ module DeviseTokenAuth
         return render :json => {:massage => "Password did not Match"}
       end
 
-      if (params[:email].nil?) || (params[:password].nil?) || (params[:password_confirmation].nil?) || (params[:firstname].nil?) || (params[:lastname].nil?) || (params[:phno].nil?)
+      if (params[:email].nil?) || (params[:password].nil?) || (params[:password_confirmation].nil?) || (params[:first_name].nil?) || (params[:last_name].nil?) || (params[:phno].nil?)
         return render :json => {:massage => "Some Fields are Missing"}
       end
 
@@ -60,7 +60,7 @@ module DeviseTokenAuth
     end
 
     def sign_up_params
-      params.permit(:email, :password, :password_confirmation, :firstname, :lastname, :phno, :alert)
+      params.permit(:email, :password, :password_confirmation, :first_name, :last_name, :phno, :alert)
     end
 
     def account_update_params

@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aff6d87-6c90-4db2-a6f6-c46add8d9832" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/devise_token_auth/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/devise_token_auth/sessions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/devise_token_auth/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/devise_token_auth/registrations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/profile_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/profile_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise_token_auth/registrations/sign_up.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise_token_auth/registrations/sign_up.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profile/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/profile/index.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191008070258_add_fields_to_user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191008070258_add_fields_to_user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191008082007_rename_address_to_homeaddress.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191008082007_rename_address_to_homeaddress.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20191009051130_add_count_to_profile.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191009051130_add_count_to_profile.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,12 +30,20 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1Re46yDlfN2oDXn2Sd0f1wL5QQa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ubwab" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/devise_token_auth/registrations" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,7 +174,11 @@
       <workItem from="1570182064217" duration="7504000" />
       <workItem from="1570424065000" duration="9320000" />
       <workItem from="1570440580602" duration="776000" />
-      <workItem from="1570441380475" duration="10066000" />
+      <workItem from="1570441380475" duration="10446000" />
+      <workItem from="1570508972894" duration="717000" />
+      <workItem from="1570517682448" duration="3229000" />
+      <workItem from="1570528206907" duration="14313000" />
+      <workItem from="1570597132224" duration="3629000" />
     </task>
     <servers />
   </component>
@@ -179,28 +198,7 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/devise_token_auth/sessions_controller.rb</url>
-          <line>12</line>
-          <properties a="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="RailsRunConfigurationType">
-        <watch expression="@resource" language="ruby" />
-        <watch expression=":user" language="ruby" />
-        <watch expression="sign_in!" language="ruby" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570455191776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
+    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570601422754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
   </component>
 </project>

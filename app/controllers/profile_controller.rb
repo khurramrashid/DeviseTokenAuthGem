@@ -25,7 +25,7 @@ class ProfileController < ApplicationController
   end
 
   def profile_params
-    params.fetch(:profile).permit(:name, :phno, :homeaddress, :city, :country, :image, :imagecount, :reservation, :reviews, :pointsearned)
+    params.fetch(:profile).permit(:name, :phno, :home_address, :city, :country, :image, :image_count, :reservation, :reviews, :points_earned)
   end
 
 end
