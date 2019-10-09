@@ -28,9 +28,6 @@ module DeviseTokenAuth
         end
         @token = @resource.create_token
         @resource.save
-
-        # sign_in(:user, @resource, store: false, bypass: false)
-
         yield @resource if block_given?
 
         render_create_success

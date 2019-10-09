@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aff6d87-6c90-4db2-a6f6-c46add8d9832" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/devise_token_auth/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/devise_token_auth/sessions_controller.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +23,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1Re46yDlfN2oDXn2Sd0f1wL5QQa" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -169,7 +171,7 @@
       <workItem from="1570508972894" duration="717000" />
       <workItem from="1570517682448" duration="3229000" />
       <workItem from="1570528206907" duration="14313000" />
-      <workItem from="1570597132224" duration="4896000" />
+      <workItem from="1570597132224" duration="7678000" />
     </task>
     <servers />
   </component>
@@ -190,6 +192,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570601422754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
+    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570606662648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
   </component>
 </project>
