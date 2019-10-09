@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aff6d87-6c90-4db2-a6f6-c46add8d9832" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/devise_token_auth/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/devise_token_auth/registrations_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/profile_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/profile_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise_token_auth/registrations/sign_up.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise_token_auth/registrations/sign_up.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/profile/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/profile/index.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20191008070258_add_fields_to_user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191008070258_add_fields_to_user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20191008082007_rename_address_to_homeaddress.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191008082007_rename_address_to_homeaddress.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20191009051130_add_count_to_profile.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20191009051130_add_count_to_profile.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +169,7 @@
       <workItem from="1570508972894" duration="717000" />
       <workItem from="1570517682448" duration="3229000" />
       <workItem from="1570528206907" duration="14313000" />
-      <workItem from="1570597132224" duration="3629000" />
+      <workItem from="1570597132224" duration="4896000" />
     </task>
     <servers />
   </component>
