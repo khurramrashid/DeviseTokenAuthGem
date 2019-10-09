@@ -19,7 +19,7 @@ module DeviseTokenAuth
         return render :json => {:massage => "Password did not Match"}
       end
 
-      if (params[:email].nil?) || (params[:password].nil?) || (params[:password_confirmation].nil?) || (params[:name].nil?) || (params[:address].nil?) || (params[:avatar].nil?)
+      if (params[:email].nil?) || (params[:password].nil?) || (params[:password_confirmation].nil?) || (params[:firstname].nil?) || (params[:lastname].nil?) || (params[:phno].nil?)
         return render :json => {:massage => "Some Fields are Missing"}
       end
 
@@ -30,7 +30,7 @@ module DeviseTokenAuth
       @token = @resource.create_token
       if @resource.save
         update_auth_header
-        render_create_success
+        render :sign_up
       else
         return render :json => {:massage => "User already Exist!"}
       end
@@ -60,7 +60,7 @@ module DeviseTokenAuth
     end
 
     def sign_up_params
-      params.permit(:email, :password, :password_confirmation, :name, :address, :avatar)
+      params.permit(:email, :password, :password_confirmation, :firstname, :lastname, :phno, :alert)
     end
 
     def account_update_params
@@ -102,7 +102,7 @@ module DeviseTokenAuth
     def render_create_success
       render json: {
           status: 'success',
-          data: resource_data
+          User: sign_up
       }
     end
 
