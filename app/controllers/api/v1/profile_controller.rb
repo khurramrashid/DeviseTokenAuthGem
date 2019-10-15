@@ -24,8 +24,18 @@ class Api::V1::ProfileController < ApplicationController
     @profile = Profile.find(params[:id])
   end
 
+  def edit
+    @profile = Profile.find(params[:id])
+  end
+
+  def update
+    @profile = Profile.find(params[:id])
+    @profile.update(profile_params)
+  end
+
+
   def profile_params
-    params.fetch(:profile).permit(:name, :phno, :home_address, :city, :country, :image, :image_count, :reservation, :reviews, :points_earned)
+    params.require(:profile).permit(:name, :phno, :home_address, :city, :country, :image, :image_count, :reservation, :reviews, :points_earned)
   end
 
 end

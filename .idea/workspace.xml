@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aff6d87-6c90-4db2-a6f6-c46add8d9832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/profile/create.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/profile/show.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise_token_auth/sessions/sign_in.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/image/create.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/occassion/create.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/offer/create.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/offer/update.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/profile/update.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/rating/update.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/reservation/update.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/resturant/create.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/resturant/update.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/review/create.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/review/update.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/time_slot/create.json.jbuilder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/api/v1/time_slot/update.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DeviseTokenAuthGem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeviseTokenAuthGem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/profile_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/profile_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise_token_auth/registrations/sign_up.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise_token_auth/registrations/sign_up.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/profile/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/profile_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/profile_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/devise_token_auth.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -32,21 +47,28 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/devise_token_auth/sessions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/api/v1/time_slot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.settings.patched" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/views/devise_token_auth/sessions" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/views/api/v1" />
       <recent name="$PROJECT_DIR$/app/controllers/api/v1" />
+      <recent name="$PROJECT_DIR$/app/views/api/v1" />
+      <recent name="$PROJECT_DIR$/app/views/api/v1/resturant" />
       <recent name="$PROJECT_DIR$/app/views/devise_token_auth/registrations" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/api/v1/time_slot" />
+      <recent name="$PROJECT_DIR$/app/views/api/v1/review" />
+      <recent name="$PROJECT_DIR$/app/views/api/v1/reservation" />
+      <recent name="$PROJECT_DIR$/app/views/api/v1/rating" />
+      <recent name="$PROJECT_DIR$/app/views/api/v1/profile" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,12 +83,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: DeviseTokenAuthGem">
+  <component name="RunManager" selected="Rails.Development: polar-springs-44985">
     <configuration name="Development: DeviseTokenAuthGem" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="DeviseTokenAuthGem" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Development: polar-springs-44985" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="polar-springs-44985" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../polar-springs-44985" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -110,6 +156,30 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Production: polar-springs-44985" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="polar-springs-44985" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../polar-springs-44985" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="spec: DeviseTokenAuthGem" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="DeviseTokenAuthGem" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -133,10 +203,59 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_VERBOSE" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="spec: polar-springs-44985" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="polar-springs-44985" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../polar-springs-44985" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_VERBOSE" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test: DeviseTokenAuthGem" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="DeviseTokenAuthGem" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_VERBOSE" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: polar-springs-44985" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="polar-springs-44985" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../../polar-springs-44985" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -183,7 +302,17 @@
       <workItem from="1570517682448" duration="3229000" />
       <workItem from="1570528206907" duration="14313000" />
       <workItem from="1570597132224" duration="9484000" />
-      <workItem from="1570614563665" duration="6058000" />
+      <workItem from="1570614563665" duration="6652000" />
+      <workItem from="1570681729493" duration="581000" />
+      <workItem from="1570710537521" duration="135000" />
+      <workItem from="1570768153785" duration="250000" />
+      <workItem from="1570768508593" duration="5106000" />
+      <workItem from="1570774113123" duration="6584000" />
+      <workItem from="1570786871428" duration="11141000" />
+      <workItem from="1571027414042" duration="13387000" />
+      <workItem from="1571046769807" duration="2000" />
+      <workItem from="1571046797380" duration="12549000" />
+      <workItem from="1571113485139" duration="622000" />
     </task>
     <servers />
   </component>
@@ -206,19 +335,11 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="RailsRunConfigurationType">
-        <watch expression="Profile.uid" language="ruby" />
-        <watch expression="@Profile!" language="ruby" />
-        <watch expression="@profile.inspect" language="ruby" />
-        <watch expression="@profile.user_id" language="ruby" />
-        <watch expression="@profile.user_id" language="ruby" />
-        <watch expression="@profile.name" language="ruby" />
-        <watch expression="@profile.phno" language="ruby" />
-        <watch expression="@resource.token_validation_response" language="ruby" />
-        <watch expression="resource_data" language="ruby" />
+        <watch expression="@resturant.save!" language="ruby" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1570620247213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
+    <SUITE FILE_PATH="coverage/DeviseTokenAuthGem@Development__DeviseTokenAuthGem.rcov" NAME="Development: DeviseTokenAuthGem Coverage Results" MODIFIED="1571059567164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DeviseTokenAuthGem" />
   </component>
 </project>

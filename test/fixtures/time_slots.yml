@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  person: 1
+  date_available: 2019-10-11
+  time_available: 2019-10-11 10:16:57
+  resturant_id: 
+
+two:
+  person: 1
+  date_available: 2019-10-11
+  time_available: 2019-10-11 10:16:57
+  resturant_id: 

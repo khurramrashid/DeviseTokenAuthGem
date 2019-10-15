@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  occassion: MyString
+  special_request: MyString
+  user_contact: 1
+  note: MyString
+  resturant_id: 
+  time_slot_id: 
+
+two:
+  occassion: MyString
+  special_request: MyString
+  user_contact: 1
+  note: MyString
+  resturant_id: 
+  time_slot_id: 

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  food: 1
+  service: 1
+  ambiance: 1
+  noise: MyString
+  overall_rating: 1
+  average_rating: 1
+  resturant_id: 
+
+two:
+  food: 1
+  service: 1
+  ambiance: 1
+  noise: MyString
+  overall_rating: 1
+  average_rating: 1
+  resturant_id: 

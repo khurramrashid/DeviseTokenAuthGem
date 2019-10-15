@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DeviseTokenAuthGem.iml" filepath="$PROJECT_DIR$/.idea/DeviseTokenAuthGem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/polar-springs-44985.iml" filepath="$PROJECT_DIR$/.idea/modules/polar-springs-44985.iml" />
     </modules>
   </component>
 </project>
