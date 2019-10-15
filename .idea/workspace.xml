@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aff6d87-6c90-4db2-a6f6-c46add8d9832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/image/create.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/occassion/create.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/offer/create.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/offer/update.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/profile/update.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/rating/update.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/reservation/update.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/resturant/create.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/resturant/update.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/review/create.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/review/update.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/time_slot/create.json.jbuilder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/time_slot/update.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DeviseTokenAuthGem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeviseTokenAuthGem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/profile_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/profile_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/devise_token_auth.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar-springs-44985" beforeDir="false" afterPath="$PROJECT_DIR$/polar-springs-44985" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar-springs-44985/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/polar-springs-44985/.idea/.generators" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +13,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="makeprofile" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -312,7 +306,7 @@
       <workItem from="1571027414042" duration="13387000" />
       <workItem from="1571046769807" duration="2000" />
       <workItem from="1571046797380" duration="12549000" />
-      <workItem from="1571113485139" duration="622000" />
+      <workItem from="1571113485139" duration="1068000" />
     </task>
     <servers />
   </component>
